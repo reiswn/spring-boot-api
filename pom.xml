@@ -8,11 +8,11 @@
 		<version>2.4.4</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.exemple.demoms</groupId>
-	<artifactId>demo-ms-api</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<name>demo-ms</name>
-	<description>Demo project for Spring Microservice</description>
+	<groupId>com.exemple.springbootapi</groupId>
+	<artifactId>spring-boot-api</artifactId>
+	<version>1.0.0</version>
+	<name>spring-boot-api</name>
+	<description>Spring Microservice project for a products Rest API</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
