@@ -9,6 +9,7 @@ Rest api  for Product catalog with Java and Spring Boot.
 - Maven 4
 - jUnit 5
 - H2 database ( In-memory database )
+- Docker
 
 ## How to run
 
@@ -48,6 +49,24 @@ This is the expected format for all interactions with this api
 | GET         |  /products        |   List of products            |
 | GET         |  /products/search |   List of filtered products   |
 | DELETE      |  /products/{id}   |   Delete a product by ID      |
+
+## Improvements made
+
+### Docker
+
+- 02/04/21: Created dockerfile - now running ```mvn package``` you build a fatjar and generate a docker image. 
+  
+  After build, run
+  
+  ```docker images```
+  
+  and see a new image with data that can be change in pom file.
+  
+  Then, run
+  ```docker run -p 9999:9999 {image name}```
+  
+  All done! The app are running at docker!
+  
 
 ## Improvements for the future 
 
